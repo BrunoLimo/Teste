@@ -19,5 +19,3 @@ def driver():
 def test_app_opens(driver):
     driver.get("http://localhost:8501")
     sleep(5)
-
-
